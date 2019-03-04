@@ -19,8 +19,7 @@ Siga os formatos padrões de instalação. Ao fim, não se esqueça de abrir o G
 
 1. Clone o repositório digitando `$ git clone https://github.com/colaboradados/colaboradados.github.io.git` no Gitbash.
 2. Vá até a pasta onde você clonou o repositório em seu computador.
-3. Digite `$ bundle install
-$ bundle exec jekyll serve` no GitBash.
+3. Digite `$ bundle install` e depois `$ bundle exec jekyll serve` no GitBash.
 
 Caso não tenha dado nenhum erro, pule para a etapa **5**.
 
@@ -51,6 +50,10 @@ Vamos precisar de:
 2. Vá até a pasta onde você clonou o repositório em seu computador.
 3. Digite `$ bundle install` e depois `$ bundle exec jekyll serve` no Terminal.
 3. Abra o seu navegador e digite `http://localhost:4000/`. Se tudo der certo você conseguirá ver o site rodando localmente em seu computador.
+
+## Usando o docker
+
+Uma outra opção, para quem não deseja instalar o Ruby nem o Jekyll na máquina, é usar o [Docker](https://www.docker.com/). Para isso, só é necessário rodar apenas um comando que rapidamente o servidor de desenvolvimento estará disponível. Para tanto, além do Docker, é necessário usar o [docker-compose](https://docs.docker.com/compose/). Tendo os dois instalados, é só rodar o comando `docker-compose up`.
 
 ## Colaborando com a bases de dados (e sendo uma pessoa muito legal)
 
